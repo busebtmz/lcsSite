@@ -1,0 +1,237 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #FFF;
+  color: #555;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;}
+
+h1, h2, h3
+{ font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #436287;}
+
+h2
+{ font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #436287;}
+
+h3
+{ font-size: 140%;
+  padding: 5px 0 0 0;}
+
+h4, h6
+{ color: #436287;
+  padding: 0 0 5px 0;
+  font: normal 110% arial;
+text-transform: uppercase;}
+
+h5, h6
+{ color: #888;
+  font: normal 95% arial;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #B48A7C;}
+
+a:hover
+{ text-decoration: none;}
+
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header{
+  border-bottom: 1px solid #fff;
+  height: 100px;
+  margin: 0 0 40px 0;
+  text-align: center;
+  background-color: rgba(245, 198, 112, 0.5);
+}
+
+h1 {
+	font-size: 4em;
+	color: #436287;
+  padding: 5px 0 15px 0;
+  background-color: rgba(245, 198, 112, 0.5);
+	}
+	
+#banner {
+  width: 330px;
+  height: 153px;
+  border: 10px solid #ddd;
+  margin-right: 150px;
+  float: right;}
+  
+#logo
+{ width: 880px;
+  position: relative;
+  height: 140px;}
+
+#menubar
+{ width: 876px;
+  height: 45px;
+  padding-right: 8px;
+  background: #fff;
+  background-color: #c0c0c0;}
+  
+ul#menu
+{ padding: 0 6em;
+  margin-left: 50px;}
+
+ul#menu li
+{ float: left;
+  padding: 0 0 0 5px;
+  list-style: none;
+  margin: 10px 4px 30px 15px;
+  text-align: center;
+  }
+
+ul#menu li a
+{ font: normal 100% 'trebuchet ms', sans-serif;
+  display: block; 
+  float: left;
+  height: 20px;
+  padding: 3px 10px 0 10px;
+  text-align: center;
+  color: #E5DF5E;
+  text-decoration: none;
+  background: #436287;} 
+
+ul#menu li a:hover
+{ color: #fff;}
+
+#site_content
+{ width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  padding: 0 0 10px 0;} 
+
+#sidebar_container
+{ float: left;
+  width: 224px;}
+
+.sidebar
+{ float: right;
+  width: 222px;
+  padding: 0;
+  margin: 20px 0 16px 0;
+  border: 1px solid #436287;}
+
+.sidebar_item
+{ background: url(side_back.png) repeat-y;
+  padding: 0 15px;
+  width: 192px;}
+
+#content
+{ text-align: left;
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: right;}
+  
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li, .sidebar ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+
+#content img {
+	margin-left: 150px;
+	padding: 2em;
+}	
+
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+#footer
+{ width: 100%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 100%;
+  height: 80px;
+  padding: 28px 0 5px 0;
+  text-align: center; 
+  background: #436287;
+  border-top: 2px solid #2D2D2D;
+  color: #FFF;}
+
+#footer p
+{ line-height: 1.7em;
+  padding: 0 0 10px 0;}
+
+#footer a
+{ color: #fff;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #E5DF5E;
+  text-decoration: none;}
+
+.search
+{ color: #5D5D5D; 
+  border: 1px solid #BBB; 
+  width: 134px; 
+  padding: 4px; 
+  font: 100% arial, sans-serif;}
+
+  .quote-container {
+    background: rgba(245, 198, 112, 0.5);
+    height: 40vh;
+    text-align: center;
+    padding: 40px 100px 0 100px;
+  }
+  #generate-btn {
+    color: white !important;
+    background: #436287 !important;
+    border-color: #000 !important;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 20px;
+  }
+  #generate-btn:hover {
+    background: #5D5D5D !important;
+    border-color: #5d5d5d !important;
+    color: #333333 !important;
+  }
+  .author {
+    color: #436287;
+  }
+.background_container {
+  margin-top: 5px 0 -10px 0;
+  color: rgba(245, 198, 112, 0.5);
+  padding: 10px 0 -50px 0;
+}
+.col {
+  text-align: center;
+  padding: 1em;
+}
